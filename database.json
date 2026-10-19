@@ -1,0 +1,23 @@
+{
+  "store_config": {
+    "store_name": "Toko Gue",
+    "address": "Jl. Utama No. 123",
+    "phone": "08123456789",
+    "qris_image_url": "https://via.placeholder.com/300?text=QRIS+Toko"
+  },
+  "users": [
+    { "id": "U001", "username": "admin", "password": "adminpassword", "role": "admin", "name": "Owner Admin" },
+    { "id": "U002", "username": "kasir1", "password": "kasirpassword", "role": "cashier", "name": "Kasir Utama" }
+  ],
+  "categories": ["Makanan", "Minuman", "Snack"],
+  "products": [
+    { "id": "P001", "sku": "1001", "name": "Produk Sampel", "price": 20000, "cogs": 12000, "stock": 50, "category": "Makanan", "image_url": "" }
+  ],
+  "recipes": [
+    { "id": "R001", "product_id": "P001", "ingredient_id": "P002", "qty_needed": 1 }
+  ],
+  "customers": [],
+  "shifts": [],
+  "transactions": [],
+  "outlets": []
+}
